@@ -18,7 +18,7 @@ export default function Contact(props) {
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                            Email - prjagtap90@gmail.com <br /> Email - imredskull9@gmail.com
+                            Email - prjagtap90@gmail.com 
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ export default function Contact(props) {
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                            Email - pournima2496@gmail.com <br />Email - pournimagaikwad2210@gmail.com
+                            Email - pournima2496@gmail.com 
                         </div>
                     </div>
                 </div>
