@@ -55,7 +55,6 @@ export default function About(props) {
                     </h2>
                     <div id="collapsefour" className="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                            Hari Bhau <br />
                             Rohit R. Jagtap <br />
                             Pournima Yuvraj Gaikwad
                         </div>
