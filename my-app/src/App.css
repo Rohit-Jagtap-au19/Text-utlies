@@ -1,0 +1,7 @@
+/* *{
+  background-image:linear-gradient(to right ,blue,skyblue);
+}
+ */
+.accordion-button::after{
+  filter: invert(1);
+}
