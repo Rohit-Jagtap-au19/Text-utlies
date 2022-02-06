@@ -1,10 +1,12 @@
 import './App.css';
-import Contact from './components/Contact'
+// import Contact from './components/Contact'
 import About from './components/About';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import React, { useState } from 'react'
 import Alert from './components/Alert';
+// import ContactForm from './components/ContactForm';
+import Mailer from './components/mailer';
 import {
   BrowserRouter as Router,
   Switch,
@@ -41,7 +43,7 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar title="Text-Utils" AboutTitle="About Us" contactus="Contact Us" mode={mode} toggleMode={toggleMode} />
+        <Navbar title="Text-Utils" AboutTitle="About" contactus="Contact Me" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         <div className="container my-3">
           <Switch>
@@ -49,7 +51,9 @@ function App() {
               <About mode={mode} />
             </Route>
             <Route exact path="/contact">
-              <Contact mode={mode} />
+              {/* <Contact mode={mode} /> */}
+              <Mailer />
+
             </Route>
             <Route exact path="/">
               <TextForm showAlert={showAlert} heading="Try TextUtiles - Word counter, charector counter, Remove Extra Spaces" mode={mode} />
@@ -57,6 +61,7 @@ function App() {
           </Switch>
         </div>
       </Router>
+      {/* <ContactForm/> */}
     </>
   );
 }

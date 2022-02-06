@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default function About(props) {
     let mystyle = {
         color: props.mode === 'dark' ? 'white' : '#042743',
@@ -50,16 +51,29 @@ export default function About(props) {
                 <div className="accordion-item mt-1" style={mystyle}>
                     <h2 className="accordion-header" id="headingfour">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" style={mystyle} aria-expanded="false" aria-controls="collapsefour">
-                            <strong>Creators</strong>
+                            <strong>Creator</strong>
                         </button>
                     </h2>
                     <div id="collapsefour" className="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
                             Rohit R. Jagtap <br />
-                            Pournima Yuvraj Gaikwad
                         </div>
                     </div>
                 </div>
+                <div className="accordion-item mt-1" style={mystyle}>
+                    <h2 className="accordion-header" id="headingfive">
+                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" style={mystyle} aria-expanded="false" aria-controls="collapsefive">
+                            <strong>Next Project</strong>
+                        </button>
+                    </h2>
+                    <div id="collapsefive" className="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
+                            TICK TAK TOE GAME <br />
+                            <button className="btn btn-primary mx-1 my-1"><a href="https://tiktacto.herokuapp.com/" target={'_blank'} rel="noreferrer" style={{color:'white',textDecoration:'none'}}>GO TO</a></button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     )

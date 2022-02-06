@@ -8,7 +8,7 @@ export default function Contact(props) {
     }
     return (
         <div className='container' style={{ color: props.mode === 'dark' ? 'white' : '#042743' }}>
-            <h2>Contact Us</h2>
+            <h2>Contact US</h2>
             <div className="accordion" id="accordionExample">
                 <div className="accordion-item mt-1" style={mystyle}>
                     <h2 className="accordion-header" id="headingOne">
@@ -21,20 +21,7 @@ export default function Contact(props) {
                             Email - prjagtap90@gmail.com 
                         </div>
                     </div>
-                </div>
-                <div className="accordion-item mt-1" style={mystyle}>
-                    <h2 className="accordion-header" id="headingTwo">
-                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" style={mystyle} aria-controls="collapseTwo">
-                            <strong>Pournima Gaikwad</strong>
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div className="accordion-body">
-                            Email - pournima2496@gmail.com 
-                        </div>
-                    </div>
-                </div>
-                
+                </div>                
             </div>
         </div>
     )
