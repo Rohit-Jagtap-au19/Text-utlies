@@ -23,6 +23,20 @@ export default function Contact(props) {
                     </div>
                 </div>                
             </div>
+            <div className="accordion" id="accordionExample">
+                <div className="accordion-item mt-1" style={mystyle}>
+                    <h2 className="accordion-header" id="headingOne">
+                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" style={mystyle} aria-controls="collapseOne">
+                            <strong>Pournima Gaikwad</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
+                            Email - pournima2496@gmail.com 
+                        </div>
+                    </div>
+                </div>                
+            </div>
         </div>
     )
 }

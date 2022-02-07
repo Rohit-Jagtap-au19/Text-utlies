@@ -1,17 +1,14 @@
+import React, { useState } from 'react'
+
 import './App.css';
-// import Contact from './components/Contact'
+
 import About from './components/About';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
-import React, { useState } from 'react'
 import Alert from './components/Alert';
-// import ContactForm from './components/ContactForm';
-import Mailer from './components/mailer';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+import Mailer from './components/mail/mailer';
+
+import {BrowserRouter as Router,Switch,Route,} from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState('light')
